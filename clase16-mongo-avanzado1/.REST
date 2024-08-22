@@ -1,0 +1,22 @@
+#### Productos 
+
+GET http://127.0.0.1:8080/api/products
+###
+GET http://localhost:8080/api/products/312312
+###
+POST http://localhost:8080/api/products
+Content-Type: application/json
+
+{
+    "title": "productos prueba 3",
+    "code": "003",
+    "thumbnail": "http://image.jpg",
+    "price": 5000,
+    "stock": 150,
+    "category": "gorras"
+}
+
+###
+PUT http://localhost:8080/api/products/312312
+###
+DELETE http://localhost:8080/api/products/312312
